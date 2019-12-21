@@ -1,0 +1,32 @@
+body{
+    font-family: Muli,sans-serif;
+}
+.footer{
+    background-color:#121212;
+   padding-top: 3rem;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.first{
+    background-color: #121212;
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.list{
+    color: #3c8cf0;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.list-m{
+ 
+    color: white;
+    font-size: 14px;
+   letter-spacing: .3px;
+   padding: .3rem;
+   font-weight: 500;
+}
+.list-m:hover{
+    color: #3c8cf0;
+}

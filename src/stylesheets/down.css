@@ -1,0 +1,55 @@
+.top{
+    background-color: #16202B;
+    /* margin-bottom: 14px; */
+    position: relative;
+    padding: 0 10px;
+    top:0%;
+}
+.head1{
+    letter-spacing: .25px;
+    line-height: 28px;
+    font-weight: 500;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 20px;
+}
+.card{
+    padding-left: 1rem;
+    background-color: #16202B;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.pos-title{
+    margin: .7rem;    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: aliceblue;
+    font-size: 14px;
+}
+.poster{
+    padding-bottom: 1rem;
+}
+.pos-img{
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(34,34,34,.4);
+    width:90%;
+    cursor: pointer;
+    opacity: 0.8;
+    background: rgba(0,0,0,.6);
+    /* opacity: 0;
+    transform: translateY(20px);
+    transition: transform .2s,opacity .2s; */
+}
+
+.pos-img:hover{
+    opacity: 1;
+    /* transform: translateX(20px); */
+    transition: transform .2s,opacity .2s;
+    transition: transform .5s;
+    transform: scale(1.1);
+}
+.episode{
+    color:white;
+    font-size: 12px;
+    margin-left: .6rem;
+}
